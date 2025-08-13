@@ -1,4 +1,4 @@
-import { prisma } from "../infrastructure/db/prisma.js";
+import { prisma } from "../infrastructure/db/prisma";
 import { z } from "zod";
 
 export const StudentCreateSchema = z.object({
